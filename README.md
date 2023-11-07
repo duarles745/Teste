@@ -52,3 +52,11 @@
 # Verificar branches:
 
 # Para listar todas as branches presentes no seu repositório Git e destacar a branch atual, você pode usar o comando git branch. A branch atual estará marcada com um asterisco (*). Por exemplo: git branch 
+
+# O comando git merge é usado para mesclar as alterações de uma branch em outra. Você normalmente mescla uma branch secundária (como uma feature branch) na branch principal (como main ou master).
+
+# Primeiro, certifique-se de estar na branch na qual deseja incorporar as alterações. Em seguida, execute o comando git merge seguido do nome da branch que deseja mesclar.
+
+# O comando git rebase é outra opção para unir branches, mas ele reorganiza o histórico de commits de uma forma linear. Isso pode ser útil para manter um histórico mais limpo e linear.
+
+# Para usar o git rebase, primeiro, certifique-se de estar na branch na qual deseja incorporar as alterações. Em seguida, execute o comando git rebase seguido do nome da branch que deseja mesclar.
