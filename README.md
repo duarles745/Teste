@@ -51,4 +51,4 @@
 
 # Verificar branches:
 
-# Para listar todas as branches presentes no seu repositório Git e destacar a branch atual, você pode usar o comando git branch. A branch atual estará marcada com um asterisco (*). Por exemplo: git branch
+# Para listar todas as branches presentes no seu repositório Git e destacar a branch atual, você pode usar o comando git branch. A branch atual estará marcada com um asterisco (*). Por exemplo: git branch 
