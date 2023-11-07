@@ -21,3 +21,6 @@
 # Lembre-se de que você deve ter permissões adequadas no repositório remoto para realizar o push das modificações.
 
 # Se você está enviando pela primeira vez para um repositório remoto, pode ser necessário configurar o repositório remoto com o comando "git remote add nome_do_remote URL_do_repositório". Isso cria uma conexão entre o repositório local e o repositório remoto para que você possa fazer push e pull das alterações.
+ 
+ * comando git pull
+ * comando git fetch
