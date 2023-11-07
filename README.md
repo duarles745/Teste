@@ -14,4 +14,10 @@
 
 # Para restaurar um arquivo a partir de um commit anterior, você pode usar o comando "git checkout" ou "git restore" com o hash do commit desejado. Por exemplo, "git checkout hash_do_commit nome_do_arquivo.extensão" restauraria o arquivo para o estado no commit referenciado.
 
-# teste
+# Após fazer o commit das modificações no código, o usuário pode enviar o código para um repositório remoto na nuvem. Primeiro, você pode verificar os repositórios remotos associados ao seu repositório local usando o comando "git remote". Isso mostrará uma lista de remotos configurados.
+
+# Para enviar suas alterações para um repositório remoto na nuvem, você pode usar o comando "git push". A sintaxe típica é "git push nome_do_remote nome_da_branch". Por exemplo, se você deseja enviar suas alterações para um repositório chamado "origin" na branch principal (geralmente chamada "main" ou "master"), você usaria o comando "git push origin main" ou "git push origin master", dependendo da configuração do repositório.
+
+# Lembre-se de que você deve ter permissões adequadas no repositório remoto para realizar o push das modificações.
+
+# Se você está enviando pela primeira vez para um repositório remoto, pode ser necessário configurar o repositório remoto com o comando "git remote add nome_do_remote URL_do_repositório". Isso cria uma conexão entre o repositório local e o repositório remoto para que você possa fazer push e pull das alterações.
