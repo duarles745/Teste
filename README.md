@@ -13,3 +13,5 @@
 # Caso o desenvolvedor queira ver todas as modificações feitas no código, pode usar o comando "git log". Isso mostrará todas as modificações feitas, com informações como o autor, data e hora de cada commit. Cada commit é identificado por um hash único, que pode ser usado para referenciar commits específicos.
 
 # Para restaurar um arquivo a partir de um commit anterior, você pode usar o comando "git checkout" ou "git restore" com o hash do commit desejado. Por exemplo, "git checkout hash_do_commit nome_do_arquivo.extensão" restauraria o arquivo para o estado no commit referenciado.
+
+# teste
