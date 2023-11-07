@@ -22,12 +22,10 @@
 
 # Se você está enviando pela primeira vez para um repositório remoto, pode ser necessário configurar o repositório remoto com o comando "git remote add nome_do_remote URL_do_repositório". Isso cria uma conexão entre o repositório local e o repositório remoto para que você possa fazer push e pull das alterações.
  
- * comando git pull
+ 
 # O comando git pull é usado para recuperar as últimas alterações do repositório remoto e mesclá-las automaticamente em sua branch local. Isso significa que ele executa dois passos em um: primeiro, ele faz um git fetch para buscar as atualizações do repositório remoto, e depois, ele faz um git merge (ou um git rebase, dependendo da configuração) para incorporar as alterações locais.
 
 # É útil quando você deseja trazer as atualizações do repositório remoto e mesclá-las automaticamente em sua branch local
-
- * comando git fetch
 
  # O comando git fetch é usado para buscar as atualizações do repositório remoto, mas ele não mescla automaticamente as alterações em sua branch local. Ele apenas atualiza as referências remotas e baixa as informações sobre as mudanças no repositório remoto, permitindo que você veja o que foi alterado antes de decidir como incorporar as atualizações em sua branch local.
 # É útil quando você deseja verificar as atualizações antes de mesclá-las manualmente, o que lhe dá mais controle sobre o processo.
