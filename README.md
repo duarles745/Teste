@@ -29,3 +29,26 @@
 
  # O comando git fetch é usado para buscar as atualizações do repositório remoto, mas ele não mescla automaticamente as alterações em sua branch local. Ele apenas atualiza as referências remotas e baixa as informações sobre as mudanças no repositório remoto, permitindo que você veja o que foi alterado antes de decidir como incorporar as atualizações em sua branch local.
 # É útil quando você deseja verificar as atualizações antes de mesclá-las manualmente, o que lhe dá mais controle sobre o processo.
+
+# caso o desenvolvedor queira compartilhar seu codigo apartir de uma branch que nao seja a main ou a master ele pode criar uma nova branch utilizando o codigo " git branch (nome de branch que queira) " e para selecionar a branch criada pode ser usado o codigo " git checkout (nome da branch criada). Para verificar a branch selecionada o usuario pode usar o codigo " git branch " assim o vscode marca a branch selecionada.
+
+# Criar uma nova branch:
+
+# Para criar uma nova branch, você pode usar o comando git branch. No entanto, geralmente é acompanhado pelo nome da nova branch que você deseja criar. Por exemplo:
+
+
+# git branch nome_da_nova_branch
+
+# Selecionar uma branch:
+
+# Para mudar para a nova branch que você acabou de criar, você pode usar o comando git checkout. Isso permite alternar entre diferentes branches no Git. Por exemplo:
+
+# git checkout nome_da_nova_branch
+
+# Uma forma mais recente e recomendada de criar e mudar para uma nova branch ao mesmo tempo é usar o comando git switch:
+
+# git switch -c nome_da_nova_branch
+
+# Verificar branches:
+
+# Para listar todas as branches presentes no seu repositório Git e destacar a branch atual, você pode usar o comando git branch. A branch atual estará marcada com um asterisco (*). Por exemplo: git branch
